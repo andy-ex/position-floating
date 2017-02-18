@@ -1,0 +1,95 @@
+* {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 11px;
+}
+
+header {
+    padding: 0px;
+    font-size: 24px;
+}
+
+footer {
+    text-align: center;
+    font-size: 8px;
+}
+
+.container {
+    width: 40%;
+    margin: 100px auto;
+}
+
+.container > div {
+    height: 600px;
+    padding: 40px 30px 60px 30px;
+    border: 2px solid;
+    position: relative;
+}
+
+.first {
+    bottom: 1450px;
+    right: 40px;
+    background-color: #eee;
+}
+
+.second {
+    bottom: 725px;
+    right: 20px;
+    background-color: #ddd;
+}
+
+.third {
+    background-color: #ccc
+}
+
+.bookmark {
+    border: 2px solid;
+    border-radius: 0 10px 10px 0;
+    height: 30px;
+    width: 120px;
+    float: right;
+    position: relative;
+    left: 50px;
+}
+
+.first .bookmark {
+    background-color: orange;
+    left:120px;
+}
+
+.second .bookmark {
+    background-color: green;
+    left: 85px;
+}
+
+.third .bookmark {
+    background-color: blue;
+}
+
+.text:after {
+    content: ".";
+    display: block;
+    visibility: hidden;
+}
+
+.cup-image {
+    float: left;
+    margin: 0 20px 6px 0 ;
+}
+
+.css-html-image {
+    float: right;
+    margin: 0 0 0 20px;
+}
+
+.jokes-container img {
+    margin: 0 0 10px 0;
+}
+
+.jokes-container :nth-child(odd)  {
+     float: right;
+}
+
+.jokes-title {
+    margin: 10px 0 10px 0;
+    font-size: 16px;
+}
