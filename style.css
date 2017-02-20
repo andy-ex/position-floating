@@ -1,6 +1,5 @@
 * {
     font-family: 'PT Sans', sans-serif;
-    font-size: 11px;
 }
 
 header {
@@ -14,15 +13,19 @@ footer {
 }
 
 .container {
-    width: 40%;
+    width: 500px;
     margin: 100px auto;
 }
 
-.container > div {
+.container > article {
     height: 600px;
     padding: 40px 30px 60px 30px;
     border: 2px solid;
     position: relative;
+}
+
+article {
+    font-size: 11px;
 }
 
 .first {
@@ -89,7 +92,26 @@ footer {
      float: right;
 }
 
-.jokes-title {
+.jokes header {
     margin: 10px 0 10px 0;
     font-size: 16px;
+}
+
+aside  {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    margin: 0 0 0 350px;
+}
+
+.share-text-img {
+    position: relative;
+    bottom: 45px;
+    right: 82px;
+}
+
+.share-social-img {
+    position: relative;
+    bottom: 10px;
+    right: 158px;
 }
